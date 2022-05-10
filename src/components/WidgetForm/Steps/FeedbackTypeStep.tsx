@@ -9,7 +9,7 @@ interface FeedbackTypeStepProps {
 export function FeedbackTypeStep({ onFeedbackTypeChanged }: FeedbackTypeStepProps) {
     const [screenshot, setScreenshot] = useState<string | null>(null)
 
-    const feedbackTypeInfo = feedbackTypes[feedbackTypes];
+    const feedbackTypeInfo = feedbackTypes;
 
   return (
     <>
